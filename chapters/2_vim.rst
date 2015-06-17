@@ -25,23 +25,25 @@ Basic configuration
     :set wrap
     :set nowrap
 
+* Use spaces instead of tabs
+
+.. code-block:: bash
+
+    :set expandtab
+
 Check spelling
 ==============
 
-Go to the following or previous error
+* ``[s`` ``]s`` - Go to the following or previous error.
 
-`[s` `]s`
-
-Show recomendations
-
-`=z`
+* ``=z`` - Show recomendations
 
 Enable and disable spelling check
 ---------------------------------
 
 `my dotfiles <https://github.com/pablerass/dotfiles>`_
 
-* `,NC`
-* `,CE`
-* `,CS`
-* `,CF`
+* ``,NC``
+* ``,CE``
+* ``,CS``
+* ``,CF``
