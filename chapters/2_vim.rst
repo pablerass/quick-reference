@@ -31,6 +31,28 @@ Basic configuration
 
     :set expandtab
 
+Copy and paste
+==============
+
+Use buffers
+-----------
+
+* ``"<buf>y``
+* ``"<buf>p``
+* ``"<buf>d``
+
+System clipboard ``+`` buffer - ``"+(y|p|d)``
+
+.. note::
+
+    ``*`` should be also be used in Linux and Windows, but it does not work in
+    my system.
+
+Examples
+--------
+
+* ``gg"+yG`` Copy all text into the system clipboard.
+
 Check spelling
 ==============
 
