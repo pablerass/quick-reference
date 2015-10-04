@@ -53,6 +53,11 @@ Examples
 
 * ``gg"+yG`` Copy all text into the system clipboard.
 
+Run scripts
+===========
+
+* ``:!%`` or ``:! sh %`` if you do not have run privileges.
+
 Check spelling
 ==============
 
