@@ -41,3 +41,21 @@ tcpdump
 * `-nn`  - Don’t resolve hostnames or port names.
 * `-v`, `-vv`, `-vvv` - Increase the amount of packet information you get back.
 * `-S` - Print absolute, rather than relative, TCP sequence numbers.
+
+Time
+====
+
+Check *NTP* configuration:
+
+* Check if *NTP* is enabled and synchronized:
+
+.. code-block:: bash
+
+    timedatectl status
+
+* Display *NTP* synchronization with sources:
+
+.. code-block:: bash
+
+    ntpq -pn
+
