@@ -13,6 +13,7 @@ Create, start, stop and delete a container.
 ``docker rm <container>``
 
 ``docker run -i -t <image>`` - Docker create, run and attach docker.
+``docker run --rm -i -t <image>`` - The same as previous but deleting at exit.
 ``docker run -d <image>`` - Run docker in ``-d`` detached mode.
 
 
