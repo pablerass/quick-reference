@@ -42,6 +42,13 @@ tcpdump
 * `-v`, `-vv`, `-vvv` - Increase the amount of packet information you get back.
 * `-S` - Print absolute, rather than relative, TCP sequence numbers.
 
+Port redirection
+----------------
+
+.. code-block:: bash
+
+    socat tcp-listen:<src_port>,reuseaddr,fork tcp:<dst_host>:<dst_port>
+
 Time
 ====
 
